@@ -190,25 +190,16 @@ a{
 .youtube-btn {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 12px 20px;
-    background-color: #ff0000; /* لون يوتيوب */
-    color: #fff;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.3s;
+    gap: 6px;
+    padding: 10px 16px;   /* أصغر */
+    font-size: 14px;      /* أصغر */
+    border-radius: 6px;   /* طبيعي */
 }
 
-.youtube-btn:hover {
-    background-color: #cc0000;
+.youtube-btn .yt-icon {
+    font-size: 18px;      /* حجم صغير */
 }
 
-.yt-icon {
-    width: 22px;
-    height: auto;
-}
 
 /* =========================================
    HERO
